@@ -7,7 +7,7 @@ This repo provides a way to perform full backups on databases running on Cloud, 
 PostgreSQL backups are available as full backups performed by pg\_dump or pg\_dumpall utilities. The file name format is:
 
 ```
-<PGHOST>\_<DatabaseName>\_<YYYYMMDDHHmmss>.dump.gz
+<PGHOST>_<DatabaseName>_<YYYYMMDDHHmmss>.dump.gz
 ```
 
 All files are compressed by default.
