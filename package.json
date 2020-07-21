@@ -1,0 +1,14 @@
+{
+  "name": "ibmcloud-backup-runners",
+  "version": "1.0.0",
+  "description": "Perform database backups storing data into Cloud Object Storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcos Vieira (marcosbv@br.ibm.com)",
+  "license": "ISC",
+  "dependencies": {
+    "@marcosbv/redirect-to-cos": "^1.0.0"
+  }
+}
